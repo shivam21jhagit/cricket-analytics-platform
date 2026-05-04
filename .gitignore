@@ -1,0 +1,15 @@
+# Ignore large datasets
+data/processed/
+
+# Ignore all CSVs (optional but safe)
+*.csv
+
+# Python
+__pycache__/
+.venv/
+
+# Node
+node_modules/
+
+# Env files
+.env
