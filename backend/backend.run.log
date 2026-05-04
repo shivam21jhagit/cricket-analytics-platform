@@ -1,0 +1,7 @@
+INFO:     127.0.0.1:62703 - "GET /platform/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59425 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59425 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53898 - "GET /platform/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62779 - "GET /platform/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54945 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54945 - "GET / HTTP/1.1" 200 OK
