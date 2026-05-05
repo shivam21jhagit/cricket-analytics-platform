@@ -43,7 +43,11 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://cricket-analytics-platform-2vul.vercel.app",
+        "http://localhost:3000",
+        "*"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -1379,9 +1383,9 @@ def demo_login(data: DemoLoginRequest):
 @app.get("/")
 def home():
     return {
-        "message": "CricketAI Platform API Running",
-        "docs": "/docs",
-        "dashboard": "/platform/dashboard",
+        "status": "Backend running 🚀",
+        "service": "CricketAI",
+        "docs": "/docs"
     }
 
 
