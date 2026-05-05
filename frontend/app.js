@@ -12,7 +12,7 @@ function App() {
 
   // Load players
   useEffect(() => {
-    axios.get("http://localhost:8000/players")
+    axios.get("https://cricket-analytics-platform.onrender.com/players")
       .then(res => {
         setBatters(res.data.batters);
         setBowlers(res.data.bowlers);
@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   const predict = async () => {
-    const res = await axios.post("http://localhost:8000/predict", {
+    const res = await axios.post("https://cricket-analytics-platform.onrender.com/predict", {
       batter,
       bowler,
       over: 5,
